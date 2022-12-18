@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/sign_in_style.css">
+</head>
+<body>
+<div class="container" >
+   <div class="sign_in_box">
+       <a href="#" class="btn btn-secondary bnt-kirish">Kirish</a>
+       <form action="/action_page.php" class="was-validated">
+           <div class="mb-3 mt-3">
+               <label for="uname" class="form-label">Login:</label>
+               <input type="text" class="form-control" id="uname" placeholder="Loginni kiriting" name="uname" required minlength="5">
+               <div class="valid-feedback">Kiritildi</div>
+               <div class="invalid-feedback">Iltimos loginni kiriting!!!</div>
+           </div>
+           <div class="mb-3">
+               <label for="pwd" class="form-label">Parol:</label>
+               <input type="password" class="form-control" id="pwd" placeholder="Parolni kiriting" name="pswd" required minlength="8">
+               <div class="valid-feedback">Kiritildi.</div>
+               <div class="invalid-feedback">Iltimos parolni kiriting!!!</div>
+           </div>
+           <button type="submit" class="btn btn-primary">Submit</button>
+       </form>
+   </div>
+</div>
+</body>
+</html>
