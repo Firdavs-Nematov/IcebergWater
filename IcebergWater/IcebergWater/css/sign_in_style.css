@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(".././image/sign_in_image.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    scroll-margin: unset;
+}
+
+.sign_in_box{
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px ;
+    background-origin: content-box;
+    color: #f1e6d1;
+}
+
+.bnt-kirish
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
